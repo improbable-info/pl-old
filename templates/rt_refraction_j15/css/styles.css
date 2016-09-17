@@ -1,0 +1,324 @@
+/**
+ * @version		1.5.4 June 10, 2010
+ * @author		RocketTheme, LLC http://www.rockettheme.com
+ * @copyright 	Copyright (C) 2007 - 2010 RocketTheme, LLC
+ * @license		http://www.rockettheme.com/legal/license.php RocketTheme Proprietary Use License
+ */
+/* Backgrounds */
+body.bgstyle1 {background: #0B0B0B;}
+body.bgstyle2 {background: #ddd;}
+body.bgstyle3 {background: #0F1721;}
+body.bgstyle4 {background: #1F1001;}
+body.bgstyle5 {background: #061B08;}
+body.bgstyle6 {background: #1a091c;}
+body.bgstyle7 {background: #0B0B0B;}
+body.bgstyle8 {background: #240500;}
+body.bgstyle9 {background: #1F030A;}
+body.bgstyle10 {background: #D0F4F6;}
+body.bgstyle1 #main-background {background: url(../images/backgrounds/bgstyle1/bgimage.jpg) 50% 0 no-repeat;}
+body.bgstyle2 #main-background {background: url(../images/backgrounds/bgstyle2/bgimage.jpg) 50% 0 no-repeat;}
+body.bgstyle3 #main-background {background: url(../images/backgrounds/bgstyle3/bgimage.jpg) 50% 0 no-repeat;}
+body.bgstyle4 #main-background {background: url(../images/backgrounds/bgstyle4/bgimage.jpg) 50% 0 no-repeat;}
+body.bgstyle5 #main-background {background: url(../images/backgrounds/bgstyle5/bgimage.jpg) 50% 0 no-repeat;}
+body.bgstyle6 #main-background {background: url(../images/backgrounds/bgstyle6/bgimage.jpg) 50% 0 no-repeat;}
+body.bgstyle7 #main-background {background: url(../images/backgrounds/bgstyle7/bgimage.jpg) 50% 0 no-repeat;}
+body.bgstyle8 #main-background {background: url(../images/backgrounds/bgstyle8/bgimage.jpg) 50% 0 no-repeat;}
+body.bgstyle9 #main-background {background: url(../images/backgrounds/bgstyle9/bgimage.jpg) 50% 0 no-repeat;}
+body.bgstyle10 #main-background {background: url(../images/backgrounds/bgstyle10/bgimage.jpg) 50% 0 no-repeat;}
+
+/* Radio Buttons */
+.dark .rokradios {background: url(../images/main/dark/rokradio.png) 0 0 no-repeat;}
+.dark .rokradios-active {background: url(../images/main/dark/rokradio.png) 0 -125px no-repeat;}
+.dark .rokchecks {background: url(../images/main/dark/rokradio.png) 0 -258px no-repeat;}
+.dark .rokchecks-active {background: url(../images/main/dark/rokradio.png) 0 -399px no-repeat;}
+.light .rokradios {background: url(../images/main/light/rokradio.png) 0 0 no-repeat;}
+.light .rokradios-active {background: url(../images/main/light/rokradio.png) 0 -125px no-repeat;}
+.light .rokchecks {background: url(../images/main/light/rokradio.png) 0 -258px no-repeat;}
+.light .rokchecks-active {background: url(../images/main/light/rokradio.png) 0 -399px no-repeat;}
+
+/* Header */
+.dark #header-overlay {background: url(../images/main/dark/header-overlay.png) 0 0 repeat-x;}
+.light #header-overlay {background: url(../images/main/light/header-overlay.png) 0 0 repeat-x;}
+.dark #logo {background: url(../images/main/dark/logo.png) 0 0 no-repeat;}
+.light #logo {background: url(../images/main/light/logo.png) 0 0 no-repeat;}
+
+/* Horizontal Menu */
+.dark #horiz-menu {background: url(../images/main/dark/horizmenu-bg.png) 50% 0 no-repeat;}
+.light #horiz-menu {background: url(../images/main/light/horizmenu-bg.png) 50% 0 no-repeat;}
+.dark #horiz-menu li {background: url(../images/main/dark/horizmenu-div.png) 100% 50% no-repeat;}
+.light #horiz-menu li {background: url(../images/main/light/horizmenu-div.png) 100% 50% no-repeat;}
+.dark #horiz-menu ul ul li {background: url(../images/main/dark/module-div.png) 50% 100% repeat-x;}
+.light #horiz-menu ul ul li {background: url(../images/main/light/module-div.png) 50% 100% repeat-x;}
+.dark #horiz-menu ul ul.columns-1 {background: url(../images/main/dark/drop-bg-1.png) 0 100% no-repeat;}
+.dark #horiz-menu ul ul.columns-2 {background: url(../images/main/dark/drop-bg-2.png) 0 100% no-repeat;}
+.dark #horiz-menu ul ul.columns-3 {background: url(../images/main/dark/drop-bg-3.png) 0 100% no-repeat;}
+.dark #horiz-menu ul ul.columns-4 {background: url(../images/main/dark/drop-bg-4.png) 0 100% no-repeat;}
+.light #horiz-menu ul ul.columns-1 {background: url(../images/main/light/drop-bg-1.png) 0 100% no-repeat;}
+.light #horiz-menu ul ul.columns-2 {background: url(../images/main/light/drop-bg-2.png) 0 100% no-repeat;}
+.light #horiz-menu ul ul.columns-3 {background: url(../images/main/light/drop-bg-3.png) 0 100% no-repeat;}
+.light #horiz-menu ul ul.columns-4 {background: url(../images/main/light/drop-bg-4.png) 0 100% no-repeat;}
+.dark #horiz-menu ul ul li .link.daddy span, .dark #horiz-menu ul li.parent.active:hover li .link.daddy span, .dark #horiz-menu ul li.parent.active.sfHover li .link.daddy span, .dark #horiz-menu ul li.parent:hover li .link.daddy span,  .dark #horiz-menu ul li.parent.sfHover li .link.daddy span {background: url(../images/main/dark/main-arrow.png) 95% -290px no-repeat;}
+.light #horiz-menu ul ul li .link.daddy span, .light #horiz-menu ul li.parent.active:hover li .link.daddy span, .light #horiz-menu ul li.parent.active.sfHover li .link.daddy span, .light #horiz-menu ul li.parent:hover li .link.daddy span,  .light #horiz-menu ul li.parent.sfHover li .link.daddy span {background: url(../images/main/light/main-arrow.png) 95% -290px no-repeat;}
+.dark #horiz-menu li.active .link, .dark .menutop .animated-bg, .dark #horiz-menu.splitmenu li:hover .link, .dark #horiz-menu.suckerfish li:hover .link {background: url(../images/main/dark/horizmenu-active.png) 50% 0 no-repeat;}
+.light #horiz-menu li.active .link, .light .menutop .animated-bg, .light #horiz-menu.splitmenu li:hover .link, .light #horiz-menu.suckerfish li:hover .link {background: url(../images/main/light/horizmenu-active.png) 50% 0 no-repeat;}
+
+/* Showcase Top Panel */
+.dark #showcase-panel {background: #000;}
+.light #showcase-panel {background: #fff;}
+
+/* Main Body */
+.dark #mainbody-overlay {background: url(../images/main/dark/overlay-divider.png) 50% 0 no-repeat;}
+.dark #mainbody-overlay2 {background: url(../images/main/dark/bg-overlay.png) 0 0;}
+.light #mainbody-overlay {background: url(../images/main/light/overlay-divider.png) 50% 0 no-repeat;}
+.light #mainbody-overlay2 {background: url(../images/main/light/bg-overlay.png) 0 0;}
+.dark #maincontent-tm {background: url(../images/main/dark/maincontent-tm.png) 0 0 repeat-x;}
+.dark #maincontent-tl {background: url(../images/main/dark/maincontent-tl.png) 0 0 no-repeat}
+.dark #maincontent-tr {background: url(../images/main/dark/maincontent-tr.png) 100% 0 no-repeat;}
+.dark #maincontent-m {background: url(../images/main/dark/maincontent-m.png) 0 0;}
+.dark #maincontent-l {background: url(../images/main/dark/maincontent-l.png) 0 0 repeat-y;}
+.dark #maincontent-r {background: url(../images/main/dark/maincontent-r.png) 100% 0 repeat-y;}
+.dark #maincontent-surround {background: url(../images/main/dark/maincontent-bg.png) 0 0 repeat-x;}
+.dark #maincontent-bm {background: url(../images/main/dark/maincontent-bm.png) 0 0 repeat-x;}
+.dark #maincontent-bl {background: url(../images/main/dark/maincontent-bl.png) 0 0 no-repeat}
+.dark #maincontent-br {background: url(../images/main/dark/maincontent-br.png) 100% 0 no-repeat;}
+.light #maincontent-tm {background: url(../images/main/light/maincontent-tm.png) 0 0 repeat-x;}
+.light #maincontent-tl {background: url(../images/main/light/maincontent-tl.png) 0 0 no-repeat}
+.light #maincontent-tr {background: url(../images/main/light/maincontent-tr.png) 100% 0 no-repeat;}
+.light #maincontent-m {background: url(../images/main/light/maincontent-m.png) 0 0;}
+.light #maincontent-l {background: url(../images/main/light/maincontent-l.png) 0 0 repeat-y;}
+.light #maincontent-r {background: url(../images/main/light/maincontent-r.png) 100% 0 repeat-y;}
+.light #maincontent-surround {background: url(../images/main/light/maincontent-bg.png) 0 0 repeat-x;}
+.light #maincontent-bm {background: url(../images/main/light/maincontent-bm.png) 0 0 repeat-x;}
+.light #maincontent-bl {background: url(../images/main/light/maincontent-bl.png) 0 0 no-repeat}
+.light #maincontent-br {background: url(../images/main/light/maincontent-br.png) 100% 0 no-repeat;}
+
+/* Feature Modules */
+.dark #featuremodules {background: url(../images/main/dark/featuremod-bg.png) 0 0 repeat-x;}
+.dark #featuremodules .block.first, .dark #featuremodules .block.middle {background: url(../images/main/dark/featuremod-div.png) 100% 50% no-repeat;}
+.light #featuremodules {background: url(../images/main/light/featuremod-bg.png) 0 0 repeat-x;}
+.light #featuremodules .block.first, .light #featuremodules .block.middle {background: url(../images/main/light/featuremod-div.png) 100% 50% no-repeat;}
+.dark .feature-module-bg {background: url(../images/main/dark/featuremod-glow.png) 50% 50% no-repeat;}
+.dark .feature-module {background: url(../images/main/dark/featuremod-arrow-top.png) 50% 0 no-repeat;}
+.dark .feature-module2 {background: url(../images/main/dark/featuremod-arrow-bottom.png) 50% 100% no-repeat;}
+.light .feature-module-bg {background: url(../images/main/light/featuremod-glow.png) 50% 50% no-repeat;}
+.light .feature-module {background: url(../images/main/light/featuremod-arrow-top.png) 50% 0 no-repeat;}
+.light .feature-module2 {background: url(../images/main/light/featuremod-arrow-bottom.png) 50% 100% no-repeat;}
+
+/* Side Modules */
+.dark .module-tm {background: url(../images/main/dark/sidemod-tm.png) 0 0 repeat-x;}
+.dark .module-tl {background: url(../images/main/dark/sidemod-tl.png) 0 0 no-repeat}
+.dark .module-tr {background: url(../images/main/dark/sidemod-tr.png) 100% 0 no-repeat;}
+.dark .side-mod .module {background: url(../images/main/dark/sidemod-bg.png) 0 0;}
+.light .module-tm {background: url(../images/main/light/sidemod-tm.png) 0 0 repeat-x;}
+.light .module-tl {background: url(../images/main/light/sidemod-tl.png) 0 0 no-repeat}
+.light .module-tr {background: url(../images/main/light/sidemod-tr.png) 100% 0 no-repeat;}
+.light .side-mod .module {background: url(../images/main/light/sidemod-bg.png) 0 0;}
+.dark .module-header {background: url(../images/main/dark/sidemod-h3-m.png) 0 0 repeat-x;}
+.dark .module-header2 {background: url(../images/main/dark/sidemod-h3-l.png) 0 0 no-repeat;}
+.dark .module-header3 {background: url(../images/main/dark/sidemod-h3-r.png) 100% 0 no-repeat;}
+.light .module-header {background: url(../images/main/light/sidemod-h3-m.png) 0 0 repeat-x;}
+.light .module-header2 {background: url(../images/main/light/sidemod-h3-l.png) 0 0 no-repeat;}
+.light .module-header3 {background: url(../images/main/light/sidemod-h3-r.png) 100% 0 no-repeat;}
+.dark .hilite1 .module {background: url(../images/main/dark/searchbg.png) 0 0;}
+.dark .hilite2 .module {background: url(../images/main/dark/searchbg2.png) 0 0;}
+.dark .hilite3 .module {background: url(../images/main/dark/featuremod-bg.png) 0 0;}
+.dark .hilite4 .module {background: url(../images/main/dark/maincontent-bg.png) 0 0;}
+.dark .hilite5 .module {background: url(../images/main/dark/horizmenu-bg.png) 45% 0 no-repeat;}
+.light .hilite1 .module {background: url(../images/main/light/searchbg.png) 0 0;}
+.light .hilite2 .module {background: url(../images/main/light/searchbg2.png) 0 0;}
+.light .hilite3 .module {background: url(../images/main/light/featuremod-bg.png) 0 0;}
+.light .hilite4 .module {background: url(../images/main/light/maincontent-bg.png) 0 0;}
+.light .hilite5 .module {background: url(../images/main/light/horizmenu-bg.png) 45% 0 no-repeat;}
+
+/* Search */
+.dark #searchmod-surround .input-field-l, .dark form.search_result .input-field-l {background: url(../images/main/dark/input-r.png) 100% 0 no-repeat;}
+.dark #searchmod-surround .input-field-r {background: url(../images/main/dark/input-l.png) 0 0 no-repeat;}
+.dark #searchmod-surround #roksearch_search_str {background: url(../images/main/dark/search-icon.png) 97% 50% no-repeat;}
+.light #searchmod-surround .input-field-l, .light form.search_result .input-field-l {background: url(../images/main/light/input-r.png) 100% 0 no-repeat;}
+.light #searchmod-surround .input-field-r {background: url(../images/main/light/input-l.png) 0 0 no-repeat;}
+.dark form.search_result fieldset.word, .dark form.search_result fieldset.phrase {background: url(../images/main/dark/horizmenu-bg.png) 50% 100% no-repeat;}
+.light form.search_result fieldset.word, .light form.search_result fieldset.phrase {background: url(../images/main/light/horizmenu-bg.png) 50% 100% no-repeat;}
+.dark .search-results-full span.highlight {color: #000;}
+.light .search-results-full span.highlight {color: #fff;}
+.light #searchmod-surround #roksearch_search_str {background: url(../images/main/light/search-icon.png) 97% 50% no-repeat;}
+.dark #searchmod .search_options {color: #fff;}
+.dark #roksearch_results .rokajaxsearch-overlay {background: #292929;}
+.dark #roksearch_results {background: url(../images/main/dark/searchbg.png) 0 0;border: 1px solid #151515;border-top: 0;border-bottom: 0;}
+.dark #roksearch_results a:hover {color: #fff;}
+.dark #roksearch_results h3 {color: #fff;}
+.dark #roksearch_results span {color: #999;}
+.dark #roksearch_results span.highlight {background: #666;color: #fff;}
+.dark #roksearch_results .roksearch_header, .dark #roksearch_results .roksearch_row_btm {background: url(../images/main/dark/searchbg2.png) 0 0;border-bottom: 1px solid #151515;color: #fff;}
+.dark #roksearch_results .roksearch_odd {background: url(../images/main/dark/sidemod-tm.png) 0 0 repeat-x;border-bottom: 1px solid #151515;}
+.dark #roksearch_results .roksearch_even {background: url(../images/main/dark/sidemod-tm.png) 0 0 repeat-x;border-bottom: 1px solid #151515;}
+.dark #roksearch_results .roksearch_odd-hover, .dark #roksearch_results .roksearch_even-hover {background: url(../images/main/dark/searchbg2.png) 0 0;}
+.dark #roksearch_results .roksearch_odd-hover h3, .dark #roksearch_results .roksearch_even-hover h3 {color: #fff;background: url(../images/main/dark/main-arrow.png) 0 3px no-repeat;}
+.dark #roksearch_results a#roksearch_link {background: url(../images/main/dark/search-close.png) 0 100% no-repeat;}
+.dark #roksearch_results .arrow-left {background: url(../images/main/dark/search-close.png) 50% 1px no-repeat;}
+.dark #roksearch_results .arrow-left-disabled {background: url(../images/main/dark/search-close.png) 50% -34px no-repeat;}
+.dark #roksearch_results .arrow-right {background: url(../images/main/dark/search-close.png) 50% -16px no-repeat;}
+.dark #roksearch_results .arrow-right-disabled {background: url(../images/main/dark/search-close.png) 50% -34px no-repeat;}
+.dark form.search_result #search_searchword.inputbox {background: url(../images/main/dark/input-l.png) 0 0 no-repeat;}
+.light form.search_result #search_searchword.inputbox {background: url(../images/main/light/input-l.png) 0 0 no-repeat;}
+.light #searchmod .search_options {color: #444;}
+.light #roksearch_results .rokajaxsearch-overlay {background: #fff;}
+.light #roksearch_results {background: url(../images/main/light/searchbg.png) 0 0;border: 1px solid #ccc;border-top: 0;border-bottom: 0;}
+.light #roksearch_results a:hover {color: #fff;}
+.light #roksearch_results h3 {color: #444;}
+.light #roksearch_results span {color: #888;}
+.light #roksearch_results span.highlight {background: #666;color: #fff;}
+.light #roksearch_results .roksearch_header, .light #roksearch_results .roksearch_row_btm {background: url(../images/main/light/searchbg2.png) 0 0;border-bottom: 1px solid #ccc;color: #666;}
+.light #roksearch_results .roksearch_odd {background: url(../images/main/light/sidemod-tm.png) 0 0 repeat-x;border-bottom: 1px solid #ccc;}
+.light #roksearch_results .roksearch_even {background: url(../images/main/light/sidemod-tm.png) 0 0 repeat-x;border-bottom: 1px solid #ccc;}
+.light #roksearch_results .roksearch_odd-hover, .light #roksearch_results .roksearch_even-hover {background: url(../images/main/light/searchbg2.png) 0 0;}
+.light #roksearch_results .roksearch_odd-hover h3, .light #roksearch_results .roksearch_even-hover h3 {color: #000;background: url(../images/main/light/main-arrow.png) 0 3px no-repeat;}
+.light #roksearch_results a#roksearch_link {background: url(../images/main/light/search-close.png) 0 100% no-repeat;}
+.light #roksearch_results .arrow-left {background: url(../images/main/light/search-close.png) 50% 1px no-repeat;}
+.light #roksearch_results .arrow-left-disabled {background: url(../images/main/light/search-close.png) 50% -34px no-repeat;}
+.light #roksearch_results .arrow-right {background: url(../images/main/light/search-close.png) 50% -16px no-repeat;}
+.light #roksearch_results .arrow-right-disabled {background: url(../images/main/light/search-close.png) 50% -34px no-repeat;}
+
+/* Side Menus */
+.dark #main-body ul.menu li {background: url(../images/main/dark/module-div.png) 0 100% no-repeat;}
+.light #main-body ul.menu li {background: url(../images/main/light/module-div.png) 0 100% no-repeat;}
+.dark #main-body ul.menu li a {background: url(../images/main/dark/main-arrow.png) 5px 11px no-repeat;}
+.dark #main-body ul.menu li a:hover {background: url(../images/main/dark/main-arrow.png) 5px -288px no-repeat;}
+.light #main-body ul.menu li a {background: url(../images/main/light/main-arrow.png) 5px 11px no-repeat;}
+.light #main-body ul.menu li a:hover {background: url(../images/main/light/main-arrow.png) 5px -288px no-repeat;}
+
+/* Extra Content Styles */
+.dark .poll-line {background: url(../images/main/dark/module-div.png) 50% 100% no-repeat;}
+.light .poll-line {background: url(../images/main/light/module-div.png) 50% 100% no-repeat;}
+.dark .pollstableborder th, .dark dl.poll dt  {border-bottom:1px solid #333;}
+.light .pollstableborder th, .light dl.poll dt  {border-bottom:1px solid #ddd;}
+.dark ul.latestnews li a, .dark ul.mostread li a, .dark .blog_more ul li a, .dark .block ul#mainlevel-nav li a {background: url(../images/main/dark/main-arrow.png) 0 2px no-repeat;}
+.light ul.latestnews li a, .light ul.mostread li a, .light .blog_more ul li a, .light .block ul#mainlevel-nav li a {background: url(../images/main/dark/main-arrow.png) 0 2px no-repeat;}
+.dark #breadcrumbs-home {background: url(../images/main/dark/breadcrumb-home.png) 0 0 no-repeat;}
+.light #breadcrumbs-home {background: url(../images/main/light/breadcrumb-home.png) 0 0 no-repeat;}
+.dark span.breadcrumbs img {background: url(../images/main/dark/main-arrow.png) 50% 6px no-repeat;}
+.light span.breadcrumbs img {background: url(../images/main/light/main-arrow.png) 50% 6px no-repeat;}
+.dark th.sectiontableheader {background: url(../images/main/dark/sidemod-h3-m.png) repeat-x;}
+.light th.sectiontableheader {background: url(../images/main/light/sidemod-h3-m.png) repeat-x;}
+.dark .contact_email .inputbox, .dark input#email.required {background: url(../images/main/dark/searchbg2.png) 0 0;}
+.light .contact_email .inputbox, .light input#email.required {background: url(../images/main/light/searchbg2.png) 0 0;}
+
+/* Login Styles */
+.dark form.form-login .input-field-l {background: url(../images/main/dark/input-r.png) 100% 0 no-repeat;}
+.dark form.form-login .inputbox {background: url(../images/main/dark/input-l.png) 0 0 no-repeat;}
+.light form.form-login .input-field-l {background: url(../images/main/light/input-r.png) 100% 0 no-repeat;}
+.light form.form-login .inputbox {background: url(../images/main/light/input-l.png) 0 0 no-repeat;}
+
+/* Bottom Section */
+.dark #bottom-border-top, .dark #bottom-border-bottom {background: url(../images/main/dark/bottom-border.png) 0 0;}
+.light #bottom-border-top, .light #bottom-border-bottom {background: url(../images/main/light/bottom-border.png) 0 0;}
+.dark #bottom {background: url(../images/main/dark/bottom-bg.png) 0 0 repeat-x;}
+.dark #bottom2 {background: url(../images/main/dark/bottom-border.png) 0 0 repeat-y;}
+.dark #bottom3 {background: url(../images/main/dark/bottom-border.png) 100% 0 repeat-y;}
+.light #bottom {background: url(../images/main/light/bottom-bg.png) 0 0 repeat-x;}
+.light #bottom2 {background: url(../images/main/light/bottom-border.png) 0 0 repeat-y;}
+.light #bottom3 {background: url(../images/main/light/bottom-border.png) 100% 0 repeat-y;}
+.dark #top-button a:hover {color: #ddd;}
+.light #top-button a:hover {color: #222;}
+.dark #rocket {background: url(../images/main/dark/rocket.png) 0 0 no-repeat;}
+.light #rocket {background: url(../images/main/light/rocket.png) 0 0 no-repeat;}
+
+/* RokNewsPager */
+.dark .roknewspager-title {background: url(../images/main/dark/main-arrow.png) 0 3px no-repeat;}
+.dark .roknewspager-pages {background: url(../images/main/dark/newspager-bg.png) 0 0;}
+.light .roknewspager-pages {background: url(../images/main/light/newspager-bg.png) 0 0;}
+.dark ul.roknewspager-numbers {background: url(../images/main/dark/newspager-toolbar.png) 0 0;}
+.light ul.roknewspager-numbers {background: url(../images/main/light/newspager-toolbar.png) 0 0;}
+.dark .roknewspager-prev {background: url(../images/main/dark/newspager-controls.png) 0 0 no-repeat;}
+.dark .roknewspager-prev:hover {background: url(../images/main/dark/newspager-controls.png) 0 -30px no-repeat;}
+.dark .roknewspager-prev-disabled {background: url(../images/main/dark/newspager-controls.png) 0 -60px no-repeat;}
+.dark .roknewspager-next {background: url(../images/main/dark/newspager-controls.png) 0 -90px no-repeat;}
+.dark .roknewspager-next:hover {background: url(../images/main/dark/newspager-controls.png) 0 -120px no-repeat;}
+.dark .roknewspager-next-disabled {background: url(../images/main/dark/newspager-controls.png) 0 -150px no-repeat;}
+.light .roknewspager-prev {background: url(../images/main/light/newspager-controls.png) 0 0 no-repeat;}
+.light .roknewspager-prev:hover {background: url(../images/main/light/newspager-controls.png) 0 -30px no-repeat;}
+.light .roknewspager-prev-disabled {background: url(../images/main/light/newspager-controls.png) 0 -60px no-repeat;}
+.light .roknewspager-next {background: url(../images/main/light/newspager-controls.png) 0 -90px no-repeat;}
+.light .roknewspager-next:hover {background: url(../images/main/light/newspager-controls.png) 0 -120px no-repeat;}
+.light .roknewspager-next-disabled {background: url(../images/main/light/newspager-controls.png) 0 -150px no-repeat;}
+.dark .roknewspager-div {background: url(../images/main/dark/module-div.png) 50% 100% no-repeat;}
+.light .roknewspager-div {background: url(../images/main/light/module-div.png) 50% 100% no-repeat;}
+.dark .roknewspager-overlay {background: #111;}
+.light .roknewspager-overlay {background: #fff;}
+
+/* RokNewsflash */
+.dark #newsflash-bar {background: url(../images/main/dark/newsflash-overlay.png) 50% 0 no-repeat;}
+.light #newsflash-bar {background: url(../images/main/light/newsflash-overlay.png) 50% 0 no-repeat;}
+.dark #newsflash .control-prev {background-image: url(../images/main/dark/newsflash-controls.png);}
+.dark #newsflash .control-next {background-image: url(../images/main/dark/newsflash-controls.png);}
+.light #newsflash .control-prev {background-image: url(../images/main/light/newsflash-controls.png);}
+.light #newsflash .control-next {background-image: url(../images/main/light/newsflash-controls.png);}
+
+/* RokTabs */
+.dark .roktabs-links ul li.active {background: url(../images/main/dark/horizmenu-active.png) 50% 0 no-repeat;}
+.dark .roktabs-links ul li span {background: url(../images/main/dark/horizmenu-div.png) 100% 50% no-repeat;}
+.light .roktabs-links ul li.active {background: url(../images/main/light/horizmenu-active.png) 50% 0 no-repeat;}
+.light .roktabs-links ul li span {background: url(../images/main/light/horizmenu-div.png) 100% 50% no-repeat;}
+.dark .active-arrows {background: url(../images/main/dark/newsflash-overlay.png) 50% 0 no-repeat;}
+.dark .roktabs-wrapper .arrow-next {background: url(../images/main/dark/newsflash-controls.png) 100% -21px no-repeat;right: 15px;}
+.dark .roktabs-wrapper .arrow-prev {background: url(../images/main/dark/newsflash-controls.png) 100% 0 no-repeat;left: 15px;}
+.dark .roktabs-wrapper .arrow-next:hover {background: url(../images/main/dark/newsflash-controls.png) 100% -63px no-repeat;right: 15px;}
+.dark .roktabs-wrapper .arrow-prev:hover {background: url(../images/main/dark/newsflash-controls.png) 100% -42px no-repeat;left: 15px;}
+.light .active-arrows {background: url(../images/main/light/newsflash-overlay.png) 50% 0 no-repeat;}
+.light .roktabs-wrapper .arrow-next {background: url(../images/main/light/newsflash-controls.png) 100% -21px no-repeat;right: 15px;}
+.light .roktabs-wrapper .arrow-prev {background: url(../images/main/light/newsflash-controls.png) 100% 0 no-repeat;left: 15px;}
+.light .roktabs-wrapper .arrow-next:hover {background: url(../images/main/light/newsflash-controls.png) 100% -63px no-repeat;right: 15px;}
+.light .roktabs-wrapper .arrow-prev:hover {background: url(../images/main/light/newsflash-controls.png) 100% -42px no-repeat;left: 15px;}
+
+/* RokTwittie */
+.dark #roktwittie .status .header .name {color:#ccc;}
+.light #roktwittie .status .header .name {color:#666;}
+.dark #roktwittie div.roktwittie-infos .roktwittie-date {color: #666;}
+.light #roktwittie div.roktwittie-infos .roktwittie-date {color:#999;}
+.dark #roktwittie .status .header {background:url(../images/main/dark/sidemod-bg.png);}
+.light #roktwittie .status .header {background:url(../images/main/light/sidemod-bg.png);}
+.dark .side-mod #roktwittie .name {color:#ccc;}
+.light .side-mod #roktwittie .name {color:#666;}
+.dark #roktwittie .status .header .nick {color:#000;}
+.light #roktwittie .status .header .nick {color:#fff;}
+.dark #roktwittie .title {color:#666;}
+.light #roktwittie .title {color:#999;}
+.dark #roktwittie .roktwittie-t1,.dark #roktwittie .roktwittie-t2,.dark #roktwittie .roktwittie-t3,.dark #roktwittie .roktwittie-m1,.dark #roktwittie .roktwittie-m2,.dark #roktwittie .roktwittie-b1,.dark #roktwittie .roktwittie-b2,.dark #roktwittie .roktwittie-b3{background-image:url(../images/main/dark/tweet-sprite.png);}
+.dark #roktwittie .roktwittie-m3{background: transparent url(../images/main/dark/tweet-sprite.png) 0 -1195px repeat-x;}
+.dark #roktwittie ul.subscribe{background: url(../images/main/dark/module-div.png) 50% 100% no-repeat;}
+.light #roktwittie .roktwittie-t1,.light #roktwittie .roktwittie-t2,.light #roktwittie .roktwittie-t3,.light #roktwittie .roktwittie-m1,.light #roktwittie .roktwittie-m2,.light #roktwittie .roktwittie-b1,.light #roktwittie .roktwittie-b2,.light #roktwittie .roktwittie-b3{background-image:url(../images/main/light/tweet-sprite.png);}
+.light #roktwittie .roktwittie-m3{background: transparent url(../images/main/light/tweet-sprite.png) 0 -1195px repeat-x;}
+.light #roktwittie ul.subscribe{background: url(../images/main/light/module-div.png) 50% 100% no-repeat;}
+
+/* SuperBlogger */
+.dark div.superBloggerTop, .dark div.sbRating {background: url(../images/main/dark/sidemod-bg.png);border-top:1px dotted #333;border-bottom:1px dotted #333;}
+.dark div.articleIntrotext {border-bottom:1px dotted #333;color:#ccc;}
+.dark hr {border:none;height:17px;background: url(../images/main/dark/horizmenu-bg.png) 50% 0 no-repeat;}
+.dark div.sbAuthorBlock, .dark #disqus_thread {background: url(../images/main/dark/tweet-bg.png);border:1px solid #333;}
+.dark div.sbSectionCategory {border-bottom:1px dotted #333;}
+.dark div.sbAuthorLatest ul li p, .dark div.sbSectionCategory span, .dark div.sbSocialLinksBlock span, .dark div.sbAuthorLatestTweets ul li span.sbTweetDate {color: #777;}
+.dark div.sbAuthorLatestTweets ul li, .dark div.sbAuthorLatest ul li {background:url(../images/main/dark/horizmenu-bg.png) 50% 0 no-repeat;}
+.light div.superBloggerTop, .light div.sbRating {background: url(../images/main/light/sidemod-bg.png);border-top:1px dotted #ddd;border-bottom:1px dotted #ddd;}
+.light div.articleIntrotext {border-bottom:1px dotted #ddd;color:#333;}
+.light hr {border:none;height:17px;background: url(../images/main/light/horizmenu-bg.png) 50% 0 no-repeat;}
+.light div.sbAuthorBlock, .light #disqus_thread {background: url(http://127.0.0.1/pl/templates/rt_refraction_j15/images/main/light/tweet-bg.png);border:1px solid #ddd;}
+.light div.sbSectionCategory {border-bottom:1px dotted #ddd;}
+.light div.sbAuthorLatest ul li p, .light div.sbSectionCategory span, .light div.sbSocialLinksBlock span, .light div.sbAuthorLatestTweets ul li span.sbTweetDate {color: #999;}
+.light div.sbAuthorLatestTweets ul li, .light div.sbAuthorLatest ul li {background:url(../images/main/light/horizmenu-bg.png) 50% 0 no-repeat;}
+
+/* Disqus */
+.dark #dsq-content #dsq-comments .dsq-comment.special .dsq-comment-header {background:#333;}
+.dark #dsq-content #dsq-comments .dsq-comment-header { background: #222;}
+.light #dsq-content #dsq-comments .dsq-comment.special .dsq-comment-header {background:#ddd;}
+.light #dsq-content #dsq-comments .dsq-comment-header { background: #eee;}
+
+/* Typography */
+.dark .readon1-l {background: url(../images/main/dark/readon-l.png) 0 0 no-repeat;}
+.dark .readon1-m {background: url(../images/main/dark/readon-m.png) 50% 0 repeat-x;}
+.dark .readon1-r {background: url(../images/main/dark/readon-r.png) 100% 0 no-repeat;}
+.light .readon1-l {background: url(../images/main/light/readon-l.png) 0 0 no-repeat;}
+.light .readon1-m {background: url(../images/main/light/readon-m.png) 50% 0 repeat-x;}
+.light .readon1-r {background: url(../images/main/light/readon-r.png) 100% 0 no-repeat;}
+
+/* Variation Chooser */
+.dark #showcase-panel .styleslist div {background-color: #111;}
+.light #showcase-panel .styleslist div {background-color: #eee;}

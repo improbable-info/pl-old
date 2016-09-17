@@ -1,0 +1,425 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pl-pl" lang="pl-pl" >
+	<head>
+		  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="robots" content="index, follow" />
+  <meta name="keywords" content="NEPRAVDĚPODOBNÉ INFORMACE MAJÍ NEJVĚTŠÍ HODNOTU ,JAK BUDOU VIDĚT SVĚT INTELIGENTNÍ POČÍTAČE, Jiří Šrajer" />
+  <meta name="description" content="NEPRAVDĚPODOBNÉ INFORMACE MAJÍ NEJVĚTŠÍ HODNOTU ,JAK BUDOU VIDĚT SVĚT INTELIGENTNÍ POČÍTAČE, Jiří Šrajer" />
+  <meta name="generator" content="Joomla! 1.5 - Open Source Content Management" />
+  <title>Czy komputer może myśleć?</title>
+  <link rel="stylesheet" href="plugins/system/rokbox/themes/light/rokbox-style.css" type="text/css" />
+  <link rel="stylesheet" href="templates/rt_refraction_j15/css/template.css" type="text/css" />
+  <link rel="stylesheet" href="templates/rt_refraction_j15/css/styles.css" type="text/css" />
+  <link rel="stylesheet" href="templates/rt_refraction_j15/css/typography.css" type="text/css" />
+  <link rel="stylesheet" href="templates/system/css/system.css" type="text/css" />
+  <link rel="stylesheet" href="templates/system/css/general.css" type="text/css" />
+  <link rel="stylesheet" href="templates/rt_refraction_j15/css/rokmoomenu.css" type="text/css" />
+  <style type="text/css">
+    <!--
+
+    body.iehandle #main-background {background-attachment:fixed;}
+    body { min-width:989px;}
+	div.wrapper { margin: 0 auto; width: 989px;padding:0;}
+	#inset-block-left { width:0px;padding:0;}
+	#inset-block-right { width:0px;padding:0;}
+	#maincontent-block { margin-right:0px;margin-left:0px;}
+	#main-body ul.menu li a:hover, ul.roknewspager-numbers li.active, .feature-block .feature-desc, #horiz-menu li.active .link span, #horiz-menu li:hover .link span, #horiz-menu li.sfHover .link span, #horiz-menu li:hover li:hover .link span, #horiz-menu li:hover li:hover li:hover .link span, #horiz-menu li.sfHover li.sfHover .link span, #horiz-menu li.sfHover li.sfHover li.sfHover .link span, #showcase-section, .side-mod h3, #searchmod-surround h3, #main-body ul.menu li a:hover, ul.roknewspager-numbers li.active, a:hover, #featuremodules {color: #dddddd;}
+	#showcase-section .feature-block .feature-title {color:#ffffff;}
+	#showcase-section a {color: #21bddf;}
+	.variation-chooser input, #mainbody-overlay, #searchmod-surround .inputbox, form.search_result input.button, form.poll input.button, form.form-login .inputbox, form.form-login input.button, form.log input.button, #bottom, form#emailForm input.button, #copyright, #top-button a, input#search_searchword.inputbox, form.search_result legend, .contact_email .inputbox, .readon-wrap1 input.button, input#email.required, .logo-module, .footer-mod {color: #999999;}
+	#roktwittie .status .header .nick, .search-results-full span.highlight, #main-background div.articleListingImage img, #main-background div.sbArticleImage img  {background:#21bddf;}
+	a, .contentheading, #horiz-menu li:hover li .link span, #horiz-menu li:hover li:hover li .link span, #horiz-menu li.sfHover li .link span, #horiz-menu li.sfHover li.sfHover li .link span, .componentheading span, .roktabs-links li.active, .side-mod h3 span, .showcase-panel h3 span, #featuremodules h3 {color: #21bddf;}
+    -->
+  </style>
+  <script type="text/javascript" src="media/system/js/mootools.js"></script>
+  <script type="text/javascript" src="media/system/js/caption.js"></script>
+  <script type="text/javascript" src="plugins/system/rokbox/rokbox.js"></script>
+  <script type="text/javascript" src="plugins/system/rokbox/themes/light/rokbox-config.js"></script>
+  <script type="text/javascript" src="templates/rt_refraction_j15/js/rokfonts.js"></script>
+  <script type="text/javascript" src="templates/rt_refraction_j15/js/rokutils.js"></script>
+  <script type="text/javascript" src="templates/rt_refraction_j15/js/rokutils.inputs.js"></script>
+  <script type="text/javascript">
+var rokboxPath = '/pl/plugins/system/rokbox/';
+		window.templatePath = '/pl/templates/rt_refraction_j15';
+		window.uri = '/pl';
+		window.currentStyle = 'custom';
+	window.addEvent('domready', function() {
+		var modules = ['side-mod', 'showcase-panel'];
+		var header = ['h3','h1'];
+		RokBuildSpans(modules, header);
+	});InputsExclusion.push('.content_vote','#login-module')window.addEvent('domready', function() {
+		var featured = $('featuremodules'), featOpacity = 0.7;
+		if (featured) {
+			var featChildren = featured.getChildren();
+			if (featChildren.length > 1) {
+				featChildren.each(function(feat, i) {
+					var color = feat.getStyle('color');
+					var lnks = feat.getElements('a');
+					var h3s = feat.getElements('h3');
+					
+					var fxColors = [];
+					if (lnks.length > 0) {
+						var lnkColor = feat.getElement('a').getStyle('color');
+						lnks.each(function(lnk, i) { fxColors.push(new Fx.Style(lnk, 'color', {wait: false}).set(color)); });
+					}
+					
+					var fxH3s = [];
+					if (h3s.length > 0) {
+						var h3Color = feat.getElement('h3').getStyle('color');
+						h3s.each(function(h3, i) { fxH3s.push(new Fx.Style(h3, 'color', {wait: false}).set(color));	});
+					}
+					
+					var fx = new Fx.Style(feat, 'opacity', {duration: 300, wait: false}).set(featOpacity);
+					
+					feat.addEvents({
+						'mouseenter': function() {
+							fx.start(1);
+							if (fxColors.length) { fxColors.each(function(fxC) { fxC.start(lnkColor); }); }
+							if (fxH3s.length) { fxH3s.each(function(fxH) { fxH.start(h3Color); }); }
+						},
+						'mouseleave': function() {
+							fx.start(featOpacity);
+							if (fxColors.length) { fxColors.each(function(fxC) { fxC.start(color); }); }
+							if (fxH3s.length) {	fxH3s.each(function(fxH) { fxH.start(color); }); }
+						}
+					})
+				});
+			}
+		}	
+	});
+  </script>
+
+			
+
+
+
+
+
+
+
+
+</head>
+	<body id="ff-optima" class="f-default custom bgstyle3 dark iehandle">
+		<div id="main-background">
+			<!--Begin Gora-->
+		<div id="footer">
+			<div class="wrapper">
+				
+				
+				
+									<div class="">
+		<div class="moduletable">
+						<img alt="nppol" src="images/stories/nppol.png" height="33" width="1200" /><br />		</div>
+	</div>
+	
+							</div>
+		</div>
+			<!--Begin Showcase-->
+						<div id="showcase-section" class="png">
+				<div class="wrapper">
+					<div id="showmodules" class="spacer w99">
+												<div class="block full">
+								<div class="">
+		<div class="moduletable">
+						<table border="0" height="202" width="735">
+<tbody>
+<tr>
+<td valign="top">
+<p>&nbsp; &nbsp; <img style="border: 2px ridge #3399ff;" alt="autor" src="images/stories/autor.jpg" height="147" width="106" /><span style="font-family: Arial; font-size: x-small;" face="Arial" size="2"><br /><span style="font-size: 14pt;">&nbsp;&nbsp;&nbsp;&nbsp; Jiří Šrajer</span></span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;</p>
+</td>
+<td valign="top"><img alt="showcasepl2" src="images/stories/showcasepl2.png" height="201" width="303" /><br /></td>
+</tr>
+</tbody>
+</table>
+<br />		</div>
+	</div>
+	
+						</div>
+																							</div>
+				</div>
+			</div>
+							
+				<div id="showcase-panel">
+					<div class="wrapper">
+						<div id="showcase-panel-close">
+							<div class="readon-wrap1"><div class="readon1-l"></div><a class="readon-main" href="index.php%3Foption=com_content&amp;view=article&amp;id=108&amp;Itemid=101.html#"><span class="readon1-m"><span class="readon1-r">Close</span></span></a></div>
+						</div>
+						
+					</div>
+				</div>
+						<!--End Showcase-->
+			<!--Begin Header-->
+						<div id="header-overlay" class="png">
+				<div class="wrapper">
+					<!--Begin Logo-->
+										<!--End Logo-->
+					<!--Begin Horizontal Menu-->
+										<div id="horiz-menu-surround">
+					<div id="horiz-menu" class="suckerfish png">
+											<ul class="menutop" >
+			<li class="item1  png" >
+			<a class="topdaddy link" href="index.html"  >
+						<span>Strona główna</span>
+		</a>	
+			
+</li>	
+			<li class="item62 parent  png" >
+			<a class="topdaddy link" href="index.php%3Foption=com_content&amp;view=article&amp;id=108&amp;Itemid=101.html#"  >
+						<span>O autorze</span>
+		</a>	
+				<div class="drop-wrap columns-1"><div class="drop1 png"></div>
+	<ul class="png columns-1">
+					
+			<li class="item106  c0 coltop png" >
+			<a class="link" href="index.php%3Foption=com_content&amp;view=article&amp;id=102&amp;Itemid=106.html"  >
+						<span>O autorze</span>
+		</a>	
+			
+</li>	
+			</ul>
+	</div>
+		
+</li>	
+			<li class="item27 parent active  png" >
+			<a class="topdaddy link" href="index.php%3Foption=com_content&amp;view=article&amp;id=108&amp;Itemid=101.html#"  >
+						<span>Fragmenty książki</span>
+		</a>	
+				<div class="drop-wrap columns-1"><div class="drop1 png"></div>
+	<ul class="png columns-1">
+					
+			<li class="item98  c0 png" >
+			<a class="link" href="index.php%3Foption=com_content&amp;view=article&amp;id=107&amp;Itemid=98.html"  >
+						<span>Spis treści</span>
+		</a>	
+			
+</li>	
+					
+			<li class="item100  c0 png" >
+			<a class="link" href="index.php%3Foption=com_content&amp;view=article&amp;id=106&amp;Itemid=100.html"  >
+						<span>Wprowadzenie</span>
+		</a>	
+			
+</li>	
+					
+			<li class="item101 active  c0 png" id="current">
+			<a class="link" href="index.php%3Foption=com_content&amp;view=article&amp;id=108&amp;Itemid=101.html"  >
+						<span>Czy komputer może myśleć</span>
+		</a>	
+			
+</li>	
+					
+			<li class="item111  c0 png" >
+			<a class="link" href="index.php%3Foption=com_content&amp;view=article&amp;id=114&amp;Itemid=111.html"  >
+						<span>Losowy fragment książki</span>
+		</a>	
+			
+</li>	
+			</ul>
+	</div>
+		
+</li>	
+			<li class="item96 parent  png" >
+			<a class="topdaddy link" href="index.php%3Foption=com_content&amp;view=article&amp;id=108&amp;Itemid=101.html#"  >
+						<span>Tematy związane</span>
+		</a>	
+				<div class="drop-wrap columns-1"><div class="drop1 png"></div>
+	<ul class="png columns-1">
+					
+			<li class="item99  c0 png" >
+			<a class="link" href="index.php%3Foption=com_content&amp;view=article&amp;id=109&amp;Itemid=99.html"  >
+						<span>Geometria czasoprzestrzeni</span>
+		</a>	
+			
+</li>	
+					
+			<li class="item102  c0 png" >
+			<a class="link" href="index.php%3Foption=com_content&amp;view=article&amp;id=111&amp;Itemid=102.html"  >
+						<span>Automaty komórkowe</span>
+		</a>	
+			
+</li>	
+			</ul>
+	</div>
+		
+</li>	
+			<li class="item103 parent  png" >
+			<a class="topdaddy link" href="index.php%3Foption=com_content&amp;view=article&amp;id=108&amp;Itemid=101.html#"  >
+						<span>Dla dociekliwych</span>
+		</a>	
+				<div class="drop-wrap columns-1"><div class="drop1 png"></div>
+	<ul class="png columns-1">
+					
+			<li class="item108  c0 png" >
+			<a class="link" href="index.php%3Foption=com_content&amp;view=article&amp;id=103&amp;Itemid=108.html"  >
+						<span>Zadania matematyczno-logiczne</span>
+		</a>	
+			
+</li>	
+					
+			<li class="item109  c0 png" >
+			<a class="link" href="index.php%3Foption=com_content&amp;view=article&amp;id=112&amp;Itemid=109.html"  >
+						<span>Pytania i odpowiedzi</span>
+		</a>	
+			
+</li>	
+			</ul>
+	</div>
+		
+</li>	
+			<li class="item104 parent  png" >
+			<a class="topdaddy link" href="http://127.0.0.1/pl/index.php?option=com_content&amp;view=article&amp;id=110&amp;Itemid=104"  >
+						<span>Różne</span>
+		</a>	
+				<div class="drop-wrap columns-1"><div class="drop1 png"></div>
+	<ul class="png columns-1">
+					
+			<li class="item105  c0 png" >
+			<a class="link" href="index.php%3Foption=com_content&amp;view=article&amp;id=105&amp;Itemid=105.html"  >
+						<span>Linki do ciekawych stron</span>
+		</a>	
+			
+</li>	
+					
+			<li class="item110  c0 png" >
+			<a class="link" href="index.php%3Foption=com_content&amp;view=article&amp;id=113&amp;Itemid=110.html"  >
+						<span>Pliki do ściągnięcia</span>
+		</a>	
+			
+</li>	
+			</ul>
+	</div>
+		
+</li>	
+			<li class="item107  png" >
+			<a class="topdaddy link" href="index.php%3Foption=com_contact&amp;view=contact&amp;id=1&amp;Itemid=107.html"  >
+						<span>Kontakt</span>
+		</a>	
+			
+</li>	
+	</ul>
+&nbsp;&nbsp;&nbsp;
+					<a href="http://cz.improbable.info" target="_blank"><img style="margin-top: 17px;" alt="cz flag" src="http://cz.improbable.info/images/cz.jpg"></a>
+					<a href="http://pl.improbable.info" target="_blank"><img style="margin-top: 17px;" alt="pl flag" src="http://cz.improbable.info/images/pol.jpg"></a>
+					<a href="http://en.improbable.info" target="_blank"><img style="margin-top: 17px;" alt="en flag"src="http://cz.improbable.info/images/ang.jpg"></a>
+					
+										</div>
+					</div>
+										<!--End Horizontal Menu-->
+				</div>
+			</div>
+						<!--End Header-->
+			
+			<!--Begin Main Body-->
+			<div id="mainbody-overlay" class="png"><div id="mainbody-overlay2" class="png">
+				<div class="wrapper">
+					<div id="main-body">
+						<div id="main-body-surround">
+							<!--Begin Main Content Block-->
+							<div id="main-content" class="s-c-x">
+							    <div class="colmask leftmenu">
+							        <div class="colmid">
+	    					    	    <div class="colright">
+	        						        <!--Begin col1wrap -->    
+	            						    <div class="col1wrap">
+	            						        <div class="col1pad">
+	            						            <div class="col1">
+	                    						        <div id="maincol2">
+	                    									<div class="maincol2-padding">
+																																															<div id="maincontent-tm" class="png"><div id="maincontent-tl" class="png"><div id="maincontent-tr" class="png"></div></div></div>
+															<div id="maincontent-m" class="png"><div id="maincontent-l" class="png"><div id="maincontent-r" class="png"><div id="maincontent-surround" class="png">
+																	                    												                    									<div class="bodycontent">
+		                    												                    												                    										<div id="maincontent-block">
+		                												
+		                														                												<div class="">
+	<div id="page" class="full-article">
+		
+				<div class="article-rel-wrapper">
+						<h2 class="contentheading">
+				Czy komputer może myśleć?			</h2>
+				 	</div>
+
+		
+		
+		
+		
+		
+		
+		Na tak postawione pytanie można odpowiedzieć jednym słowem i więcej tym się nie przejmować.Wielu osób pewnie by tak zrobiło. Powiedzieliby że nie, i być może mieliby rację.<br />Ale co to właściwie znaczy „myśleć”? Nie będę tu próbował podawać definicji (problemem definicji pojęć będziemy zajmowali się w następnym rozdziale), chcę tylko, aby w tym miejscu uświadomić sobie, że odpowiedź na pytanie, czy komputer może myśleć, jest zależna od tego, jak zdefiniujemy pojęcie „myślenie”.<br />Bez względu na to, jaką definicję „myślenia” przyjmiemy, większość ludzi zgodzi się z tym, że człowiek myśli. Ale kiedy i w jaki sposób zaczyna myśleć? Dziecko musi mieć zmysły, którymi odbiera bodźce i musi mieć mózg, który na te bodźce reaguje.<br />Jeżeli niemowle na coś patrzy, obraz na siatkówce jest zdeformowany i jest obrócony do góry nogami. Mózg musi nauczyć się ułożyć obraz oglądanego przedmiotu na podstawie bodźców wzrokowych, oddzielić go od jego otoczenia i utworzyć jego model.<br />Dużo lepszy model danego przedmiotu może uzyskać, jeżeli będzie miał do dyspozycji następne niezależne źródło informacji, na przykład dotyk. W jaki sposób postrzegamy daną rzecz&nbsp; zależy od tego, jakie mamy zmysły.<br />Jeżeli człowiek urodzi się ślepy, jego wyobrażenie o świecie będzie inne niż większości ludzi, ale nikt nie wątpi w jego umiejętność myślenia. Gdyby jednak urodził się nie tylko ślepy, ale też głuchy, bez węchu, bez dotyku i innych zmysłów? Bez żadnych bodźców myślenie by prawdopodobnie nie powstało. Jakie zmysły minimalnie musiałby posiadać, aby mógł nawiązać kontakt z otoczeniem i nauczyć się myśleć? W tej chwili nie chodzi nam o to by zdecydować, jakie warunki minimalnie muszą być spełnione, aby mogło powstać myślenie, tylko by uświadomić sobie, że w pewnych warunkach mogłoby powstać coś, co można już nazwać myśleniem i jednocześnie byłoby to coś bardzo różniącego się od tego, co zwykle rozumiemy pod tym pojęciem.<br />W przypadku komputera musimy pójść jeszcze dalej. Nie chodzi o to, by komputer myślał podobnie jak człowiek, chcemy tylko, aby wykonywał taką czynność, którą moglibyśmy już nazwać (prymitywnym) myśleniem.<br /> Jeżeli chcielibyśmy, by komputer myślał jak człowiek, by postrzegał i rozumiał nasz świat, musielibyśmy dać mu podobne zmysły, by widział, słyszał, wąchał, dotykał, może też musiał by odczuwać głód i strach, podobnie jak człowiek. Musielibyśmy zapewnić mu ludzkie wychowanie i spełnić jeszcze dużo innych warunków - praktycznie stworzyć robota bardzo podobnego do człowieka. O to nam jednak w tej chwili nie chodzi.<br /><br />W jaki sposób rozumieć w takim razie słowo „myśleć” w odniesieniu do komputera? Każdy może mieć swoje zdanie, ale w tej chwili możemy przyjąć następujące stanowisko:<br /> Żeby można było powiedzieć, że komputer myśli, będziemy od niego wymagali&nbsp; zdolności operowania pojęciami. Nie jest konieczne, żeby to były pojęcia jakich używają ludzie. Tylko miałby rozumieć ich znaczenie. Tu powstaje nowy problem: Co ma znaczyć wyrażenie „rozumieć coś” w przypadku komputerów? Na razie nie wymagamy od nich świadomości ani zdolności wyobrażenia sobie czegoś. Wyobraźnia być może nie jest konieczna. Fizyk kwantowy lub matematyk też może operować obiektami, których nie potrafi sobie wyobrazić. Stwierdzimy, że je rozumieją, kiedy będą potrafili nimi prawidłowo operować. Na początek wyrażenie „rozumieć coś”&nbsp; będziemy rozumieli tak, że wystarczy mieć stworzony model zawierający dla każdego pojęcia odpowiedni obiekt który ma zdefiniowane właściwości i relacje w stosunku do innych obiektów modelu. To jest wystarczające do tego, żeby mógł odpowiadać na pytania w ramach tego modelu.<br /> Do tego, żeby powiedzieć, że komputer myśli, będziemy wymagali nieco więcej. Będziemy chcieli żeby miał zdolność zmieniać swój model świata, uzupełniać albo budować go całkowicie od nowa w ten sposób, aby potrafił otrzymać odpowiedzi także na takie pytania, na które wcześniej nie potrafił odpowiedzieć .<br /><br /> Można przyjąć też inne warunki lub wymagania dla stwierdzenia, czy komputer jest inteligentny. Na przykład test Turinga, według którego system jest inteligentny, jeżeli potrafi odpowiadać na pytania w języku naturalnym w taki sposób, że osoba zadająca pytania nie potrafi rozpoznać, czy rozmawia z maszyną czy z człowiekiem. Warunek, że sztuczna inteligencja ma być nierozróżnialna od naturalnej, uważam za ogromne ograniczenie pojęcia inteligencji. Nie uwzględnia to żadnej inteligencji zwierząt ani programów, które już jakiś stopień inteligencji wykazują, ale też przypadku maszyny, która potrafiłaby odpowiadać natychmiast i bezbłędnie na wszystkie pytania. Żeby taka maszyna była nierozróżnialna od człowieka, konieczne byłoby sztuczne wydłużanie czasu odpowiedzi w taki sposób, żeby odpowiadał długości czasu odpowiedzi człowieka. Od czasu do czasu musiałby specjalnie pomylić się lub stwierdzić, że nie zna odpowiedzi. Nawet jakby nikt nie potrafił odróżnić odpowiedzi maszyny od odpowiedzi człowieka, wiele osób i tak nie uważałoby tego za dowód na to, że maszyna myśli. Kryteria zmieniłyby się. Podobnie, jak to było w przypadku szachów. Dopóki najlepsi gracze wygrywali z komputerami, uznawano to za dowód&nbsp; wyższości ludskiej inteligencji nad nie myślącymi maszynami. Ale od czasu, kiedy komputery zaczęly wygrywać nawet z mistrzem świata, nagle okazało się, że nie jest to już dowód przewagi nie myślącej maszyny nad ludzką inteligencją.<br /> Poza tym dlaczego sztuczna inteligencja miałaby być nierozróżnialna od ludzkiej, a na przykład od sztucznej nogi tego nie wymagamy. Jeszcze nie tak dawno jako sztuczna noga wystarczył kawałek drewna a dzisiaj istnieją protezy, na których można biegać szybszej niż na zdrowych nogach, ale nikt nie wymaga, by sztuczne nogi były nierozróżnialne od naturalnych. Każdy może od razu stwierdzić, że są sztuczne.<br /> Każdy sam może pomyśleć, jakie kryteria przyjąć, by móc rozstrzygnąć czy maszyna myśli. Tu będziemy trzymać się jak najogólniejszej definicji i szukać już pierwszych oznak inteligencji.<br /> Wcześniej zastanówmy się, jak powstają pojęcia, jak są niedokładne i jaka jest nadzieja, żeby komputer przynajmniej niektóre pojęcia rozumiał w sposób podobny do naszego sposobu rozumienia.
+			</div>
+</div>
+		                														                    										</div>
+		                    										</div>
+		                    										<div class="clr"></div>
+		                        																									</div></div></div></div>
+																<div id="maincontent-bm" class="png"><div id="maincontent-bl" class="png"><div id="maincontent-br" class="png"></div></div></div>
+	                    									</div>
+	                    								</div>    
+	                    							</div>
+	            						        </div>
+	            						    </div>
+	            						    <!--End col1wrap -->
+	           						        <!--Begin col2 -->
+	           						        	            						    <div class="col2">
+	                							<div  id="leftcol">
+	                                                <div id="leftcol-padding">
+	                										                										<div class="">
+		<div class="side-mod">
+						<div class="module-tm png"><div class="module-tl png"><div class="module-tr png">
+				<div class="module png">
+					<img alt="okladka" src="images/stories/okladka.jpg" height="390" width="276" />				</div>
+			</div></div></div>
+		</div>
+	</div>
+	
+	                										                                                </div>
+	                							</div>
+	            						    </div>
+	            						     
+	            						    <!---End col2 -->
+	            						    <!--Begin col3 -->
+	            						     
+	            						    <!--End col3-->
+	        							</div>
+	    							</div>
+								</div>
+							</div>
+							<!--End Main Content Block-->
+						</div>
+					</div>
+				</div>
+				<!--Begin Bottom Main Modules-->
+								<!--End Bottom Main Modules-->
+			</div></div>
+		</div>
+		<!--End Main Body-->
+		<!--Begin Bottom Section-->
+				<!--End Bottom Section-->
+		
+		<div id="footer">
+			<div class="wrapper">
+				
+				
+				
+								<div id="top-button"><a href="index.php%3Foption=com_content&amp;view=article&amp;id=108&amp;Itemid=101.html#" id="top-scroll" class="top-button-desc">Góra</a></div>
+							</div>
+		<!-- stat.4u.pl NiE KaSoWaC -->
+<a target=_top href="http://stat.4u.pl/?jiri" title="statystyki stron WWW"><img alt="stat4u" src="http://adstat.4u.pl/s4u.gif" border="0"></a>
+<script language="JavaScript" type="text/javascript">
+<!--
+function s4upl() { return "&amp;r=er";}
+//-->
+</script>
+<script language="JavaScript" type="text/javascript" src="http://adstat.4u.pl/s.js?jiri"></script>
+<script language="JavaScript" type="text/javascript">
+<!--
+s4uext=s4upl();
+document.write('<img alt="stat4u" src="http://stat.4u.pl/cgi-bin/s.cgi?i=jiri'+s4uext+'" width="1" height="1">')
+//-->
+</script>
+<noscript><img alt="stat4u" src="http://stat.4u.pl/cgi-bin/s.cgi?i=jiri&amp;r=ns" width="1" height="1"></noscript>
+<!-- stat.4u.pl KoNiEc -->
+		</div>
+		
+	</body>
+</html>
