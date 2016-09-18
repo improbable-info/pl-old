@@ -55,15 +55,19 @@
 				frm.submit();
 			}
 		}
-		// -->var rokboxPath = '/pl/plugins/system/rokbox/';
+		// -->
+var rokboxPath = '/pl/plugins/system/rokbox/';
 		window.templatePath = '/pl/templates/rt_refraction_j15';
 		window.uri = '/pl';
 		window.currentStyle = 'custom';
-	window.addEvent('domready', function() {
+	
+window.addEvent('domready', function() {
 		var modules = ['side-mod', 'showcase-panel'];
 		var header = ['h3','h1'];
 		RokBuildSpans(modules, header);
-	});InputsExclusion.push('.content_vote','#login-module')window.addEvent('domready', function() {
+	});
+InputsExclusion.push('.content_vote','#login-module')
+window.addEvent('domready', function() {
 		var featured = $('featuremodules'), featOpacity = 0.7;
 		if (featured) {
 			var featChildren = featured.getChildren();
@@ -351,8 +355,8 @@
 <div class="contact">
 	
 			<span class="contact-name">Jiří Šrajer    </span>
-	
-			<span class="contact-position">Uwaga! W pierwszej kolejności będą udzielane odpowiedzi na pytania i uwagi, które będą zawierały prawidłowy kod.  Jako kod jest trzeba podać sumę odpowiedzi z matematyczno-logicznych zadań z zakładki „Dla dociekliwych”.</span>
+  <p> <a href="mailto:pl@improbable.info">email: pl@improbable.info</a></p>
+			<span class="contact-position">Uwaga! W pierwszej kolejności będą udzielane odpowiedzi na pytania i uwagi, które będą zawierały największy prawidłowy kod.  Jako kod jest trzeba podać sumę odpowiedzi z matematyczno-logicznych zadań z zakładki „Dla dociekliwych”, które potrafisz prawidłowo rozwiązać.</span>
 	
 	
 	
@@ -360,7 +364,7 @@
 
 
 
-<br />
+<br>
 
 
 	
@@ -368,45 +372,9 @@
 <br /><br />
 
 	<br />
-	<form action="index.php%3Foption=com_contact&amp;view=contact&amp;id=1&amp;Itemid=107.html" method="post" name="emailForm" id="emailForm" class="form-validate">
-		<div class="contact_email">
-			<label for="contact_name">
-				&nbsp;Imię i nazwisko:
-			</label>
-			<br />
-			<input type="text" name="name" id="contact_name" size="30" class="inputbox png" value="" />
-			<br />
-			<label id="contact_emailmsg" for="contact_email">
-				&nbsp;Adres e-mail:
-			</label>
-			<br />
-			<input type="text" id="contact_email" name="email" size="30" value="" class="inputbox required validate-email png" maxlength="100" />
-			<br />
-			<label for="contact_subject">
-				&nbsp;Podaj kod:
-			</label>
-			<br />
-			<input type="text" name="subject" id="contact_subject" size="30" class="inputbox png" value="" />
-			<br /><br />
-			<label id="contact_textmsg" for="contact_text">
-				&nbsp;Wiadomość:
-			</label>
-			<br />
-			<textarea cols="50" rows="10" name="text" id="contact_text" class="inputbox required png"></textarea>
-						<br />
-				<input type="checkbox" name="email_copy" id="contact_email_copy" value="1"  />
-				<label for="contact_email_copy">
-					Przesłać Ci kopię?				</label>
-						<br />
-			<br />
-			<div class="readon-wrap1"><div class="readon1-l png"></div><a class="readon-main"><span class="readon1-m png"><span class="readon1-r png"><input class="button validate" type="submit" value="Wyślij" /></span></span></a></div>
-		</div>
 
-	<input type="hidden" name="option" value="com_contact" />
-	<input type="hidden" name="view" value="contact" />
-	<input type="hidden" name="id" value="1" />
-	<input type="hidden" name="task" value="submit" />
-	<input type="hidden" name="9d0f107f5843391b5b328405fcc62857" value="1" />	</form></div>
+	
+</div>
 
 		                														                    										</div>
 		                    										</div>
